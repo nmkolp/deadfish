@@ -44,8 +44,11 @@ def execute(acc, prog, i=0, recursion=False):
                     i += 1
                 if i >= len(prog):
                     break
-        elif strict and not char in ['o', 'c']:
-            raise DeadfishError('\nInvalid character {} at index {}'.format(char, i))
+        elif not char in ['o', 'c']:
+            if strict:
+                raise DeadfishError('\nInvalid character {} at index {}'.format(char, i))
+            else:
+                print('\n', end='')
         if acc == -1 or acc == 256:
             if strict_overflow:
                 raise DeadfishError('\nOverflow at char {} (Index {}) accumulator = {}'.format(char, i, acc))
@@ -68,3 +71,4 @@ while True:
     state = execute(acc, prog)
     acc = state[0]
     prog = None
+    
