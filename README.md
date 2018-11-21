@@ -1,4 +1,4 @@
-Deadfish~ interpreter in Python3
+Deadfish~ Interpreter in Python3
 ==============================
 
 # Deadfish Language Features
@@ -26,8 +26,13 @@ Deadfish~ interpreter in Python3
 | --- | --- |
 | r | Resets accumulator to 0 |
 
-# Startup arguments
+# Startup Arguments
 
--p program: Execute program
--strict, -s: Output error and abort on invalid character
+-p program: Execute program<br />
+-strict, -s: Output error and abort on invalid character<br />
 -overflow, -o: Output error and abort on Overflow (when accumulator becomes -1 or 256)
+
+# More Info
+
+https://esolangs.org/wiki/Deadfish <br />
+https://esolangs.org/wiki/Deadfish%7E
