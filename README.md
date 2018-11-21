@@ -30,7 +30,7 @@ Deadfish~ Interpreter in Python3
 
 -p program: Execute program<br />
 -strict, -s: Output error and abort on invalid character<br />
--overflow, -o: Output error and abort on Overflow (when accumulator becomes -1 or 256)
+-overflow, -o: Output error and abort on overflow (when accumulator becomes -1 or 256)
 
 # More Info
 
