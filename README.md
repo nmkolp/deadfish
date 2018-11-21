@@ -1,2 +1,2 @@
-# deadfish
+# Deadfish
 Deadfish interpreter on Python
