@@ -63,7 +63,7 @@ def execute(acc, prog, i=0, recursion=False):
 
 acc = 0
 
-print('Deadfish~ interpreter version 0.1')
+print('Deadfish~ interpreter version 0.11')
 
 while True:
     if not bool(prog):
