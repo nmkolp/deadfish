@@ -4,26 +4,73 @@
 
 | cmd | xkdc | Description |
 | --- | --- | --- |
-| i | x | This increments the accumulator |
-| d | d | This decrements the accumulator |
-| s | k | Squares the value in the accumulator |
+| i | x | Increments the accumulator |
+| d | d | Decrements the accumulator |
+| s | k | Squares the accumulator |
 | o | c | Outputs the accumulator |
+
+Accumulator becomes zero if and only if its value is -1 or 256.
+
+### Samples
+
+Hello world! ASCII values
+```
+>> iisiiiisiiiiiiiioiiiiiiiiiiiiiiiiiiiiiiiiiiiiioiiiiiiiooiiiodddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddddddddddodddddddddddddddddddddsddoddddddddoiiioddddddoddddddddoddddddddd
+ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddo
+```
+
+Example of Deadfish arithmetic
+```
+>> iissso
+0
+```
+
+Another example
+```
+>> diissisdo
+288
+```
 
 ## Deadfish~ Language Features
 
 | cmd | xkdc | Description |
 | --- | --- | --- |
-| i | x | This increments the accumulator |
-| d | d | This decrements the accumulator |
-| s | k | Squares the value in the accumulator |
+| i | x | Increments the accumulator |
+| d | d | Dcrements the accumulator |
+| s | k | Squares the accumulator |
 | o | C | Outputs the accumulator |
 | c | c | Outputs the accumulator as an ASCII character |
-| {} | XD* | Instructions inside the curly braces loop ten times |
-| () | xD* | If accumulator is not 0 then execute the statement inside once |
+| { } | X D* | Instructions inside the braces are executed ten times |
+| ( ) | x D* | If accumulator is not 0 then execute instructions inside the parentheses |
 | h | D* | Halt |
 | w | K | Prints 'Hello, World!' |
 
-* D command closes brackets in correct order, if no brackets left program halts
+&nbsp;*&nbsp;'D' command closes brackets in correct order, if no brackets left then program halts
+
+### Samples
+
+Hello world!
+```
+>> iisiiiisiiiiiiiiciiiiiiiiiiiiiiiiiiiiiiiiiiiiiciiiiiiicciiicdddddddddddddddddddddddddddddddddddddddd
+dddddddddddddddddddddddddddddddddddddddcdddddddddddddddddddddsddcddddddddciiicddddddcddddddddcddddddddd
+ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddc
+Hello world!
+>> w
+Hello world!
+```
+
+Alphabet
+```
+>> iisiiiis{ic}{ic}icicicicicic
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+```
+
+Let the world know what you think of Deadfish~
+```
+>> iisiiiisiiiiiiiiciiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiciii{c}dddddddddcdddddddciiiiiiiiiicdddddddc
+Horrrrrrrrrrible
+```
 
 ## Startup Arguments
 
@@ -47,4 +94,5 @@
 ## More Info
 
 https://esolangs.org/wiki/Deadfish <br />
-https://esolangs.org/wiki/Deadfish%7E
+https://esolangs.org/wiki/Deadfish%7E <br />
+https://esolangs.org/wiki/Deadfish/Constants
