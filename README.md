@@ -9,7 +9,7 @@
 | s | k | Squares the accumulator |
 | o | c | Outputs the accumulator |
 
-Accumulator becomes zero if and only if its value is -1 or 256.
+Accumulator becomes zero if and only if its value its -1 or 256.
 
 ### Samples
 
