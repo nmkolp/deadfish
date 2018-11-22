@@ -18,10 +18,12 @@
 | s | k | Squares the value in the accumulator |
 | o | C | Outputs the accumulator |
 | c | c | Outputs the accumulator as an ASCII character |
-| {} | XD | Instructions inside the curly braces loop ten times |
-| () | xD | If accumulator is not 0 then execute the statement inside once |
-| h | D | Halt |
+| {} | XD* | Instructions inside the curly braces loop ten times |
+| () | xD* | If accumulator is not 0 then execute the statement inside once |
+| h | D* | Halt |
 | w | K | Prints 'Hello, World!' |
+
+* D command closes brackets in correct order, if no brackets left program halts
 
 ## Startup Arguments
 
