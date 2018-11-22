@@ -30,10 +30,10 @@
 
 -v: Set Deadfish variant<br />
 &nbsp;&nbsp;&nbsp;&nbsp; o : Original Deadfish<br />
-&nbsp;&nbsp;&nbsp;&nbsp; t : Deadfish~<br />
+&nbsp;&nbsp;&nbsp;&nbsp; t : Deadfish~ [default]<br />
 
 -c: Set command style<br />
-&nbsp;&nbsp;&nbsp;&nbsp; o : Original (i, d, s, o, ...)<br />
+&nbsp;&nbsp;&nbsp;&nbsp; o : Original (i, d, s, o, ...) [default]<br />
 &nbsp;&nbsp;&nbsp;&nbsp; x : xkdc (x, d, k, c, ...)<br />
 
 -w: Set wimpmodes<br />
