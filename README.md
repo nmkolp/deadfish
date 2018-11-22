@@ -1,7 +1,6 @@
-Deadfish~ Interpreter in Python3
-==============================
+# Deadfish~ Interpreter in Python3
 
-# Deadfish Language Features
+## Deadfish Language Features
 
 | cmd | description |
 | --- | --- |
@@ -10,7 +9,7 @@ Deadfish~ Interpreter in Python3
 | s, k | Squares the value in the accumulator |
 | o | Outputs the accumulator |
 
-# Deadfish~ Language Features
+## Deadfish~ Language Features
 
 | cmd | description |
 | --- | --- | 
@@ -20,19 +19,19 @@ Deadfish~ Interpreter in Python3
 | h | Halt |
 | w | Prints 'Hello, World!' |
 
-# Non-standard Features
+## Non-standard Features
 
 | cmd | description |
 | --- | --- |
 | r | Resets accumulator to 0 |
 
-# Startup Arguments
+## Startup Arguments
 
 -p program: Execute program<br />
 -strict, -s: Output error and abort on invalid character<br />
 -overflow, -o: Output error and abort on overflow (when accumulator becomes -1 or 256)
 
-# More Info
+## More Info
 
 https://esolangs.org/wiki/Deadfish <br />
 https://esolangs.org/wiki/Deadfish%7E
