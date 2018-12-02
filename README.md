@@ -42,7 +42,7 @@ Another example
 | o | C | Outputs the accumulator |
 | c | c | Outputs the accumulator as an ASCII character |
 | { } | X D* | Instructions inside the braces are executed ten times |
-| ( ) | x D* | If accumulator is not 0 then execute instructions inside the parentheses |
+| ( ) | x D* | If accumulator is not 0 then execute instructions inside the parentheses (doesn't work properly)|
 | h | D* | Halt |
 | w | K | Prints 'Hello, World!' |
 
